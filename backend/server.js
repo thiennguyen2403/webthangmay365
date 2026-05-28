@@ -22,5 +22,5 @@ app.get("/", async (req, res) => {
   res.json({ message: "Backend Thang Máy 365 + MySQL hoạt động" });
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5000; 
 app.listen(PORT, () => console.log(`Server chạy tại http://localhost:${PORT}`));
