@@ -80,7 +80,7 @@ function EmployeeReports() {
               key={r.id}
               title={r.title}
               sub={`${r.project_name} • ${r.report_visibility === "customer" ? "Gửi khách hàng" : "Nội bộ"} • Quản lý: ${r.manager_status} • Giám đốc: ${r.status}`}
-              right={r.image_url ? <a className="text-blue-600 font-bold" href={`http://localhost:5000${r.image_url}`} target="_blank">Ảnh</a> : null}
+              right={r.image_url ? <a className="text-blue-600 font-bold" href={`https://webthangmay365.onrender.com${r.image_url}`} target="_blank">Ảnh</a> : null}
             />
           ))}
         </div>

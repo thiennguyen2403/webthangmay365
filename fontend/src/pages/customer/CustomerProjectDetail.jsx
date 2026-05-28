@@ -36,12 +36,12 @@ function CustomerProjectDetail(){
 
         {r.image_url && (
           <a
-            href={`http://localhost:5000${r.image_url}`}
+            href={`https://webthangmay365.onrender.com${r.image_url}`}
             target="_blank"
             rel="noreferrer"
           >
             <img
-              src={`http://localhost:5000${r.image_url}`}
+              src={`https://webthangmay365.onrender.com${r.image_url}`}
               alt="Ảnh báo cáo"
               className="mt-3 w-full h-[240px] object-cover rounded-2xl border border-slate-200 hover:opacity-90 transition"
             />
